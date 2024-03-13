@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS</title>
+    <!-- css links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-danger">Click the button to change the text</h2>
+      <button class="btn btn-dark" onclick="textChange()">Text change</button>
+      <h3 id="textchange">Welcome to my website </h3>
+      <br>
+      <h2 class="text-danger">Click the button to show the Date & Time</h2>
+      <button class="btn btn-dark" onclick="getDate()">Show Date&Time</button> 
+      <h3 id="res"></h3><br>
+      
+      <h2 class="text-danger">Enter your name and click the greet button</h2>
+      <input type="text" name="name" id="name" placeholder="Enter your name">
+      <button class="btn btn-dark" onclick="greet()">Greet</button>
+      <div class="greet"></div><br>
+
+      <h2 class="text-danger">Click the button to on/off the bulb</h2>
+      <button class="btn btn-dark" onclick="bulbOn()">Bulb On</button> 
+      <button class="btn btn-dark" onclick="bulbOff()">Bulb Off</button>
+      <img id="bulb" src="images/off.gif" alt=""><br>
+
+       <h2 class="text-danger">Click the button to change the color</h2>
+      <button class="btn btn-dark" onmouseover="colorchange()">Change color</button>
+      <h3 id="c_c">Lorem ipsum dolor sit amet</h3><br>
+
+      <h2 class="text-danger">Click the button to show/hide the element</h2>
+      <button class="btn btn-dark" onclick="textShow()">Show</button>
+      <button class="btn btn-dark" onclick="textHide()">Hide</button>
+      <h3 id="text">Lorem ipsum dolor sit amet</h3>
+
+    </div>
+    
+   
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+  </body>
+</html>
